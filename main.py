@@ -53,11 +53,11 @@ ibb="""**🚫𝗬𝗼𝘂 𝗮𝗿𝗲 𝗻𝗼𝘁 𝗮𝘂𝘁𝗵𝗼𝗿𝗶
 ➡️ ₹𝟭𝟱𝟬 /  𝟭𝟱 𝗱𝗮𝘆𝘀
 ➡️ ₹𝟮𝟲𝟵 /   𝟯𝟬 𝗱𝗮𝘆𝘀
 
-🍁𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝗛𝗲𝗿𝗲 𝗧𝗼 𝗚𝗲𝘁 𝗔𝗰𝗰𝗲𝘀𝘀 @chahal_badfella
+🍁𝗠𝗲𝘀𝘀𝗮𝗴𝗲 𝗛𝗲𝗿𝗲 𝗧𝗼 𝗚𝗲𝘁 𝗔𝗰𝗰𝗲𝘀𝘀 @staystrongbros
 
 𝗗𝗼𝗻'𝘁 𝗔𝘀𝗸 𝗙𝗼𝗿 𝗙𝗿𝗲𝗲 
 
-✨𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 @achiever_team
+✨𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗕𝘆 @staystrongbros
 **"""
 async def show_random_emojis(message):
     emojis = ['🎊', '🔮', '😎', '⚡️', '🚀', '✨', '💥', '🎉', '🥂', '🍾', '🦠', '🤖', '❤️‍🔥', '🕊️', '💃', '🥳','🐅','🦁']
@@ -122,11 +122,11 @@ async def sudo_command(bot: Client, message: Message):
 keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🇮🇳ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ🇮🇳" ,url=f"https://t.me/chahal_badfella") ],
+                    InlineKeyboardButton("🇮🇳ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ🇮🇳" ,url="https://t.me/staystrongbros") ],
                     [
-                    InlineKeyboardButton("🔔ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔔" ,url="https://t.me/achiever_team") ],
+                    InlineKeyboardButton("🔔ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ🔔" ,url="https://t.me/staystrongbros") ],
                     [
-                    InlineKeyboardButton("🦋ғᴏʟʟᴏᴡ ᴜs🦋" ,url="https://t.me/warriors_edge")                              
+                    InlineKeyboardButton("🦋ғᴏʟʟᴏᴡ ᴜs🦋" ,url="https://t.me/staystrongbros")                              
                 ],           
             ]
       )
@@ -326,7 +326,7 @@ async def edit_txt(client, message: Message):
     try:
         await message.reply_document(
             document=final_file_path,
-            caption="📥**𝗘𝗱𝗶𝘁𝗲𝗱 𝗕𝘆 ➤ @chahal_badfella🐦‍🔥"
+            caption="📥**𝗘𝗱𝗶𝘁𝗲𝗱 𝗕𝘆 ➤ @staystrongbros🐦‍🔥"
         )
     except Exception as e:
         await message.reply_text(f"🚨 **Error**: Unable to send the file.\n\nDetails: {e}")
@@ -416,7 +416,7 @@ async def ytplaylist_to_txt(client: Client, message: Message):
         file_name = save_to_file(videos, title)
         await message.reply_document(
             document=file_name, 
-            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ @chahal_badfella🐦‍🔥"
+            caption=f"`{title}`\n\n📥 𝗘𝘅𝘁𝗿𝗮𝗰𝘁𝗲𝗱 𝗕𝘆 ➤ @staystrongbros🐦‍🔥"
         )
         os.remove(file_name)
     else:
@@ -438,7 +438,7 @@ async def list_users(client: Client, msg: Message):
 async def help_command(client: Client, msg: Message):
     help_text = (
         "`/start` - Start the bot⚡\n\n"
-        "`/chahal` - Download and upload files (sudo)🎬\n\n"
+        "`/bhanupratap` - Download and upload files (sudo)🎬\n\n"
         "`/restart` - Restart the bot🔮\n\n" 
         "`/stop` - Stop ongoing process🛑\n\n"
         "`/cookies` - Upload cookies file🍪\n\n"
@@ -539,9 +539,9 @@ async def upload(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     # Default credit message with link
-    credit = "️[🎭ʙᴀᴅꜰᴇʟʟᴀ🎭](https://t.me/achiever_team)"
+    credit = "️[🎭Bhanupratap🎭](https://t.me/staystrongbros)"
     if raw_text3 == '1':
-        CR = '[🎭ʙᴀᴅꜰᴇʟʟᴀ🎭](https://t.me/achiever_team)'
+        CR = '[🎭Bhanupratap🎭](https://t.me/staystrongbros)'
     elif raw_text3:
         try:
             text, link = raw_text3.split(',')
@@ -802,7 +802,7 @@ async def upload(bot: Client, m: Message):
                 else:
                     emoji_message = await show_random_emojis(message)
                     remaining_links = len(links) - count
-                    Show = f"**🍁 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚 🍁**\n\n**📝ɴᴀᴍᴇ » ** `{name}\n\n🔗ᴛᴏᴛᴀʟ ᴜʀʟ » {len(links)}\n\n🗂️ɪɴᴅᴇx » {str(count)}/{len(links)}\n\n🌐ʀᴇᴍᴀɪɴɪɴɢ ᴜʀʟ » {remaining_links}\n\n❄ǫᴜᴀʟɪᴛʏ » {res}`\n\n**🔗ᴜʀʟ » ** `{url}`\n\n🤖𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ➤ @chahal_badfella🐦‍🔥\n\n🙂 चलो फिर से अजनबी बन जायें 🙂"
+                    Show = f"**🍁 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚 🍁**\n\n**📝ɴᴀᴍᴇ » ** `{name}\n\n🔗ᴛᴏᴛᴀʟ ᴜʀʟ » {len(links)}\n\n🗂️ɪɴᴅᴇx » {str(count)}/{len(links)}\n\n🌐ʀᴇᴍᴀɪɴɪɴɢ ᴜʀʟ » {remaining_links}\n\n❄ǫᴜᴀʟɪᴛʏ » {res}`\n\n**🔗ᴜʀʟ » ** `{url}`\n\n🤖𝗕𝗢𝗧 𝗠𝗔𝗗𝗘 𝗕𝗬 ➤ @staystrongbros🐦‍🔥\n\n🙂 चलो फिर से अजनबी बन जायें 🙂"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file

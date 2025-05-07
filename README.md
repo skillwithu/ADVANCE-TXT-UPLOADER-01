@@ -1,18 +1,18 @@
 <h1 align="center">
-  🇮🇳 ʙᴀᴅꜰᴇʟʟᴀ ᴛxᴛ ᴜᴘʟᴏᴀᴅᴇʀ 🇮🇳
+  🇮🇳 Warrior ᴛxᴛ ᴜᴘʟᴏᴀᴅᴇʀ 🇮🇳
 </h1>
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Txt+Uploader+Bot+!)
 
 ## 😎 Credit
 
-🥳 Credit Goes To [ʙᴀᴅꜰᴇʟʟᴀ](https://t.me/chahal_badfella)
+🥳 Credit Goes To [warrior](https://t.me/staystrongbros)
 
   
 ## 🔥 Commands
 
 - **`/start`**: ⚡ check bot is alive.
-- **`/chahal`**:  📁 upload txt file.
+- **`/bhanupratap`**:  📁 upload txt file.
 - **`/stop`**: 🛑 stop ongoing process.
 - **`/restart`**: 🔮 restart the bot.
 - **`/cookies`**: 🍪 upload cookies file.

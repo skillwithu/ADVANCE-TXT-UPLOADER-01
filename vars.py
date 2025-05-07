@@ -1,5 +1,6 @@
-# Don't Remove Credit Tg - @chahal_badfella
-# Ask Doubt on telegram @chahal_badfella
+# Don't Remove Credit Tg - @staystrongbros
+
+# Ask Doubt on telegram @staystrongbros
 
 from os import environ
 

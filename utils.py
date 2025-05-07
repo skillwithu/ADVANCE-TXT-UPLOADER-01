@@ -1,4 +1,4 @@
-# Don't Remove Credit Telegram - @chahal_badfella
+# Don't Remove Credit Telegram - @staystrongbros
 import time
 import math
 import os
@@ -91,7 +91,7 @@ async def progress_bar(current, total, reply, start):
             progress_bar = "▰" * completed_length + "▱" * remaining_length
             
             #try:
-                #await reply.edit(f'<b>\n ╭──⌯════⬇️𝗨𝗣𝗟𝗢𝗔𝗗𝗜𝗡𝗚⬇️═════⌯──╮ \n├⚡ {progress_bar}|﹝{perc}﹞ \n├🚀 Speed » {sp} \n├📟 Processed » {cur}\n├🧲 Size - ETA » {tot} - {eta} \n├🤖 Bot Made By » @chahal_badfella🐦‍🔥\n╰─═══ ✪🎭@achiever_team🎭✪ ═══─╯\n\n🙂 चलो फिर से अजनबी बन जायें 🙂</b>') 
+                #await reply.edit(f'<b>\n ╭──⌯════⬇️𝗨𝗣𝗟𝗢𝗔𝗗𝗜𝗡𝗚⬇️═════⌯──╮ \n├⚡ {progress_bar}|﹝{perc}﹞ \n├🚀 Speed » {sp} \n├📟 Processed » {cur}\n├🧲 Size - ETA » {tot} - {eta} \n├🤖 Bot Made By » @staystrongbros🐦‍🔥\n╰─═══ ✪🎭@staystrongbros🎭✪ ═══─╯\n\n🙂 चलो फिर से अजनबी बन जायें 🙂</b>') 
             #except FloodWait as e:
                 #time.sleep(e.x)
                 
